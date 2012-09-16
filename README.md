@@ -40,7 +40,7 @@ Next, set the ``CSV_STORE_LOCATION`` variable to the directory where the crawled
 
 When the ``FOLLOW_USER_CONNECTIONS`` variable is set to ``False`` the crawler will not follow links to other profiles.
 
-The settings file also contains several options to set the rate at which information should be requested from LibraryThing (specifically the ``DOWNLOAD_DELAY`` and ``CONCURRENT_REQUESTS_PER_DOMAIN``). LT's [robots.txt](http://www.librarything.com/robots.txt) specifies a 'crawl-delay' of two seconds, please don't hit their server too hard. It is in no way my responsibility if you take down or get blocked by LT.
+The settings file also contains several options to set the rate at which information should be requested from LibraryThing (specifically the ``DOWNLOAD_DELAY`` and ``CONCURRENT_REQUESTS_PER_DOMAIN`` variables). LT's [robots.txt](http://www.librarything.com/robots.txt) specifies a 'crawl-delay' of two seconds, please don't hit their servers too hard. It is in no way my responsibility if you take down or get blocked by LT.
 
 ## Running the crawler ##
 Enter the following command in the repo's top directory to run the LT profile scraper:
