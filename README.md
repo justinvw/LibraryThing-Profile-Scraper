@@ -11,7 +11,7 @@ The repo contains a ``requirements.txt`` that can be used to install the necessa
 ## Installation ##
 First clone the LibraryThing Profile Scraper Git repository:
 
-    $ git clone ...
+    $ git clone https://github.com/justinvw/LibraryThing-Profile-Scraper.git
 
 If you do not have *pip* installed, run:
 
